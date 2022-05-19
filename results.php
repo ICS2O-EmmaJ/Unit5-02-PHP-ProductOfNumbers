@@ -7,12 +7,12 @@
 	$sum = 0;
   
 	// use a for loop to calculate the product of numbers
-	for ($counter >= 1; $counter <= $userNum; $counter++) {   
+	for ($counter = 1; $counter <= $userNum; $counter++) {   
     
 	// add the counter each time to the current sum
-	$sum = $sum + $secNum
+	$sum = $sum + $secNum;
 	}
 
   // return the string of numbers back to user
-  echo "The product is ". $numbers;
+  echo "The product is " . $sum;
 ?>
